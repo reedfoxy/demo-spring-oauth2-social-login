@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            margin: 5px;
+        }
+        button {
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <ul>
+        <li>
+            <button style="background-color:#4868ad; color:#ffffff"
+                    onclick="location.href='/oauth2/authorization/facebook'">
+                페이스북 로그인
+            </button>
+        </li>
+
+        <li>
+            <button style="background-color:#d95040; color:#ffffff"
+                    onclick="location.href='/oauth2/authorization/google'">
+                구글 로그인
+            </button>
+        </li>
+        <li>
+            <button style="background-color:#f6e04b; color:#381f1f"
+                    onclick="location.href='/oauth2/authorization/kakao'">
+                카카오 로그인
+            </button>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
